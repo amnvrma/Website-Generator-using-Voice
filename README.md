@@ -1,4 +1,4 @@
-You can interact with the webpage using following format
+You can interact with the appication in following format
 Using ADD Event - 
 - ADD a TITLE name _title_
 - ADD a PARAGRAPH name _paragraph_
