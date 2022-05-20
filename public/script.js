@@ -17,7 +17,7 @@ navigator.mediaDevices.getUserMedia({audio : true}).then(stream => {
     socket.onopen = () => {
         console.log({event: 'onopen'});
 
-        document.querySelector('#status').textContent = 'Connected';
+        // document.querySelector('#status').textContent = 'Connected';
 
         mediaRecorder.addEventListener('dataavailable', async (event) => {
             if(event.data.size > 0 && socket.readyState == 1) {

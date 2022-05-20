@@ -1,0 +1,37 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+}   
+footer{
+    /* display: flex; */
+position: fixed;
+bottom: 0;
+display:flex;
+justify-content:space-between;
+width: 98.8%;
+height: 60px;
+border-radius: 15px 15px 0px 0px;
+background-color: #212529;
+}
+/* #project_code{
+    width: 100px;
+} */
+.project_links{
+    color: #212529;
+    background-color: #f8f9fa ;
+    font-size: 18px;
+    margin: 10px 30px;    
+    text-align: center;
+    border-radius: 15px;
+    width: 150px;
+    padding: 10px;
+    font-family: "Ubuntu Mono",monospace;   
+}
+
+.link{
+    text-decoration: none;
+}
+span{
+    color: black;
+    font-weight: 1000;
+}
